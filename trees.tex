@@ -55,6 +55,41 @@
     \frame{
         \frametitle{Tree Data Structures}
         \framesubtitle{Binary Tree Traversal}
+        \begin{itemize}
+            \item Breadth First 
+            \item Depth First
+            \item Binary Search
+        \end{itemize}
+    }
+    \frame{
+        \frametitle{Tree Data Structures}
+        \framesubtitle{Binary Tree Traversal}
+        Find 38, using the three tree traversal methods.
+        \begin{center}
+        \begin{tikzpicture}[->,>=stealth,level/.style={sibling distance = 4cm/#1,level distance = 1.5cm}]
+            \node[nb]{33}
+                child {node[nb]{15}
+                    child {node[nb]{10}
+                    }
+                    child {node[nb]{20}
+                    }
+                }
+                child {node[nb]{47}
+                    child {node[nb]{38}
+                        child {node[nb]{36}
+                        }
+                        child[invisible] {node[nb]{39}
+                        }
+                    }
+                    child {node[nb]{51}
+                    }
+                }
+        \end{tikzpicture}
+        \end{center}
+    }
+    \frame{
+        \frametitle{Tree Data Structures}
+        \framesubtitle{Binary Tree Insertion}
         Insert 39
         \begin{center}
         \begin{tikzpicture}[->,>=stealth,level/.style={sibling distance = 4cm/#1,
@@ -96,6 +131,11 @@
             \item Learn how to digest a problem with little guidance.
             \item Learn how to use testing to solve a problem.
         \end{itemize}
+    }
+    \frame{
+        \frametitle{Conway's Game of Life}
+        \framesubtitle{Get the Files}
+        https://github.com/jcockhren/gameoflife
     }
     \frame{
         \frametitle{Conway's Game of Life}
@@ -142,5 +182,9 @@
             \item How will you define a live cell?
             \item How will you define a 'world'? 
         \end{itemize}
+    }
+    \frame{
+        \frametitle{Slides Available Below}
+        https://github.com/jcockhren/trees-conway
     }
 \end{document}
